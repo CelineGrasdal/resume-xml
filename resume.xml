@@ -1,0 +1,331 @@
+<?xml version = "1.0"?>
+
+<!-- Celine Grasdal's Resume: resume.xml -->
+<!-- Resume structured with XML -->
+
+<resume>
+	<contact>
+		<firstname>Celine</firstname>
+		<lastname>Grasdal</lastname>
+		<email>cgrasdal1@learn.athabascau.ca</email>
+		<linkedIn>linkedin.com/in/celinegrasdal111</linkedIn>
+		<gitHub>github.com/CelineGrasdal</gitHub>
+		<phone>825-561-2308</phone>
+		<location>Calgary. Canada</location>
+	</contact>
+	
+	<summary>
+	Currently a student at Athabasca University pursuing Bachelor of Science 
+	degree majoring in Computer Information Systems and minoring in Game 
+	\Development. Current GPA of 3.61. Also, an IT professional with almost 
+	six years of IT experience in a Windows 2008, 2012, and Office 365 
+	domain environment, over sixteen years of customer relation and resolution
+	experience, and three years of supervisory experience. Who also processes 
+	a two-year networking diploma from an accredited school.
+	</summary>
+	
+	<education>
+		<institution>
+			<programType>Degree</programType>
+			<degreeName>Bachelor of Science</degreeName>
+			<major>Computing Information Systems</major>
+			<minor>Game Programmming</minor>
+			<university>Athabasca University</university>
+			<gpa>3.61</gpa>
+			<graduationYear>2026</graduationYear>
+			<!-- Abbreviation will be chosen to use in XSLT document based on
+			country I'm applying to. -->
+			<degreeAbbreviations>
+				<!-- For Canadian Employers -->
+				<abbreviation>BSc CIS</abbreviation>
+				<!-- For American Employers -->
+				<abbreviation>BS CIS</abbreviation>
+			</degreeAbbreviations>
+			<address>
+				<city>Athabasca</city>
+				<province>Alberta</province>
+				<country>Canada</Canada>
+			</address>
+			<relatedCourseWork>
+				<course>Intro to Computer Systems</course>
+				<course>Interactive Technologies</course>
+				<course>Comp-Oriented Approach to Statistics</course>
+				<course>Storyboard Design/Development</course>
+				<course>Into to Comp Programming-Java</course>
+				<course>Linear Algebra</course>
+				<course>Intro to Comp Programming (C++)</course>
+				<course>Introduction to Game Design</course>
+				<course>Data Structures and Algorithms</course>
+				<course>Practical Game Programming</course>
+				<course>Operating Systems</course>
+				<course>Computer Networks</course>
+				<course>Systems Analysis and Design</course>
+				<course>Computer Graphics</course>
+			</relatedCourseWork>
+		</institution>
+		
+		<institution>
+			<programType>Diploma</programType>
+			<diplomaName>Network and Internet Security Specialist</diplomaName>
+			<college>CDI College</college>
+			<graduationYear>2013</graduationYear>
+			<address>
+				<city>Calgary</city>
+				<province>Alberta</province>
+				<country>Canada</Canada>
+			</address>
+		</institution>
+	</education>
+	
+	<experience>
+		<job>
+			<jobtitle>Junior Helpdesk Analyst</jobtitle>
+			<company>YMCA Calgary</company>
+			<address>
+				<city>Calgary</city>
+				<province>Alberta</province>
+				<country>Canada</Canada>
+			</address>
+			<duration>
+				<startDate>2016-03</startDate>
+				<endDate>2021-02</endDate>
+			</duration>
+			<responsibilities>
+				<responsibility>
+				 Worked at all YMCA Calgary sites
+				</responsibility>
+                <responsibility>
+				Troubleshooting and installing Windows 7 and Windows 8,
+				Microsoft Office 365 Apps, POS system, Kaspersky,
+				and various 3rd party apps as required
+				</responsibility>
+                <responsibility>
+				Adding/removing users, groups, permissions, and policies
+				on Windows Server 2016 as needed
+				</responsibility>
+                <responsibility>
+				Adding/removing PCs, domain controllers, and printers on
+				Windows Server 2008, 2012, and 2016
+				</responsibility>
+                <responsibility>
+				Maintaining file server back-ups
+				</responsibility>
+                <responsibility>
+				Assisting users with various computer and printing issues
+				on PC and tablets
+				</responsibility>
+                <responsibility>
+				Troubleshooting, maintaining, assisting users with, and
+				adding to the domain iPads and iPhones
+				</responsibility>
+                <responsibility>
+				Adding TVs, POS machines, phones, and exercise machines
+				to network. Troubleshooting and assisting users of these
+				devices when IT related
+				</responsibility>
+			</responsibilities>
+		</job>
+		
+		<job>
+			<jobtitle>IT Consultant</jobtitle>
+			<company>Shing Digital</company>
+			<address>
+				<city>Calgary</city>
+				<province>Alberta</province>
+				<country>Canada</Canada>
+			</address>
+			<duration>
+				<startDate>2014-11</startDate>
+				<endDate>2015-09<endDate>
+			</duration>
+			<responsibilities>
+				<responsibility>
+				Troubleshooting and installing various Microsoft programs,
+				Microsoft servers, Exchange, and accounting programs
+				</responsibility>
+				<responsibility>
+				Troubleshooting printers and maintaining file and server
+				backups in domain environments
+				</responsibility>
+				<responsibility>
+				Adding/removing users, PCs, groups, and permissions to
+				Windows Servers
+				</responsibility>
+				<responsibility>
+				Troubleshooting and maintaining Fortinet firewalls
+				including adding exceptions for websites as needed
+				</responsibility>
+				<responsibility>
+				Assisting users with various computer and printing
+				issues on PCs
+				</responsibility>
+			</responsibilities>
+		</job>
+		
+		<job>
+			<jobtitle>IT Consultant</jobtitle>
+			<company>Zacs Computers Video Audio</company>
+			<address>
+				<city>Calgary</city>
+				<province>Alberta</province>
+				<country>Canada</Canada>
+			</address>
+			<duration>
+				<startDate>2013-06</startDate>
+				<endDate>2014-07</endDate>
+			</duration>
+			<responsibilities>
+				<responsibility>
+				Troubleshooting and installing Microsoft Server 2008 and
+				2012, Windows 7 Pro, Microsoft Office Suite, various Mac
+				OS, and other third-party programs required in a school
+				environment
+				</responsibility>
+				<responsibility>
+				Maintaining AD DS and GAFE (Google Apps for Education)
+				including policies, users, groups, and permissions
+				</responsibility>
+				<responsibility>
+				Setting-up and maintaining Chromebooks on the Google
+				Admin Console.
+				</responsibility>
+				<responsibility>
+				Working with images including deployment of new computers
+				</responsibility>
+				<responsibility>
+				Providing on-site support to three different schools
+				</responsibility>
+			</responsibilities>
+		</job>
+		
+		<job>
+			<jobtitle>Service Escalation Desk Representative</jobtitle>
+			<company>Shaw Direct</company>
+			<address>
+				<city>Calgary</city>
+				<province>Alberta</province>
+				<country>Canada</Canada>
+			</address>
+			<duration>
+				<startDate>2007-01</startDate>
+				<endDate>2012-01</endDate>
+			</duration>
+			<responsibilities>
+				<responsibility>
+				Inbound sales and technical calls, agent training, handling
+				escalated calls, handling channel outages and internal
+				computer issues
+				</responsibility>
+			</responsibilities>
+		</job>
+	</experience>
+	
+	<awardsAndScholarships>
+		<award>
+			<name>Helen Stock Legacy Bursary</name>
+			<organization>Helping Families Handle Cancer</organization>
+			<dateAwarded>2022-08</dateAwarded>
+		</award>
+		
+		<award>
+			<name>Jason Lang Scholarship</name>
+			<organization>Alberta Student Aid</organization>
+			<dateAwarded>2024-08</dateAwarded>
+		</award>	
+	</awardsAndScholarships>
+	
+	<projects>
+        <project>
+            <title>Wonderland – Java Game Project</title>
+            <role>Developer</role>
+            <organization>Athabasca University</organization>
+            <duration>
+                <startDate>2022-07</startDate>
+                <endDate>2022-10</endDate>
+            </duration>
+            <details>
+                <detail>
+				Designed and implemented a text adventure game inspired by
+				Alice in Wonderland, showcasing skills in interactive
+				storytelling and Java programming
+				</detail>
+                <detail>Developed core game mechanics, user interface, and
+				AI algorithms for enemy and NPC behaviors
+				</detail>
+                <detail>Created detailed design documentation and project
+				plan, demonstrating technical problem-solving and project
+				organization
+				</detail>
+            </details>
+        </project>
+		
+        <project>
+            <title>Lost – C++ and Allegro 5 Game Project</title>
+            <role>Developer</role>
+            <organization>Athabasca University</organization>
+            <duration>
+                <startDate>2023-05</startDate>
+                <endDate>2023-09</endDate>
+            </duration>
+            <details>
+                <detail>Independently designed and developed "LOST," a 2D
+				side-scrolling platformer game using C++ and Allegro 5
+				</detail>
+                <detail>Implemented AI algorithms for dynamic enemy
+				behavior and a gravity system for realistic character
+				movement
+				</detail>
+                <detail>Applied data structures and algorithms (arrays,
+				structs) to efficiently manage game elements
+				</detail>
+                <detail>Integrated audio and image assets to create an
+				immersive player experience
+				</detail>
+                <detail>Authored comprehensive design documentation 
+				detailing game objectives, technical approach, and 
+				implementation
+				</detail>
+                <detail>Documented codebase to enhance readability,
+				maintainability, and ease of future updates
+				</detail>
+                <detail>Awarded a grade of 100% based on positive
+				instructor feedback
+				</detail>
+            </details>
+        </project>
+    </projects>
+	
+	<technicalSkills>
+        <skill>Java</skill>
+        <skill>C++</skill>
+        <skill>Allegro 5</skill>
+        <skill>OpenGL</skill>
+        <skill>Mappy</skill>
+        <skill>GitHub</skill>
+        <skill>Visual Studio</skill>
+        <skill>Visual Studio Code</skill>
+        <skill>Notepad++</skill>
+        <skill>Eclipse for Java</skill>
+        <skill>Interactive storytelling</skill>
+        <skill>character/enemy behavior AI</skill>
+        <dataStructures>
+            <structure>Arrays</structure>
+            <structure>Structs</structure>
+            <structure>Linked lists</structure>
+            <structure>Hash tables</structure>
+            <structure>Trees</structure>
+            <structure>Stacks</structure>
+            <structure>Queues</structure>
+            <structure>Graphs</structure>
+        </dataStructures>
+        <algorithms>
+            <algorithm>Sorting (e.g., quicksort, mergesort)</algorithm>
+            <algorithm>Searching (e.g., binary search, depth-first search)</algorithm>
+            <algorithm>Physics and gravity systems</algorithm>
+            <algorithm>Collision detection</algorithm>
+            <algorithm>Custom pathfinding AI</algorithm>
+        </algorithms>
+        <serverAdmin>Windows Server Administration (2008, 2012, 2016)</serverAdmin>
+    </technicalSkills>
+	
+</resume>
